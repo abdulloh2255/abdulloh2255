@@ -1,9 +1,9 @@
 import React, { useContext, useState } from "react";
-import { context } from "../context/GlobalContext";
+import { dataContext } from "../context/GlobalContext";
 import { v4 as uuidv4 } from "uuid";
 
 function Form() {
-  const { state, addItem, deleteItem } = useContext(context);
+  const { state, addItem, deleteItem } = useContext(dataContext);
   const [closeModal, setCloseModal] = useState(true);
   const [data, setData] = useState({
     title: "",

@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { context } from "../context/GlobalContext";
+import { dataContext } from "../context/GlobalContext";
 
 function Menu() {
-  const {state: { data }, deleteItem} = useContext(context);
+  const {state: { data }, deleteItem} = useContext(dataContext);
   return (
     <div className="py-5 dark:text-white">
      <div className="grid grid-cols-3 gap-4">

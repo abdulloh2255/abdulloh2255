@@ -1,7 +1,4 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import useMediaQuery from '@mui/material/useMediaQuery';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
 import Navbar from "./components/Navbar";
 import RootLayout from "./layout/Layout";
 import Home from "./pages/Home";
