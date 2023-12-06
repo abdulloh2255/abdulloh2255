@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .site-container {
+    @apply max-w-7xl mx-auto py-10
+  }
+}
+
+body {
+  height: 100%;
+
+}
+#root {
+  /* width: 100%;
+  max-width: 1120px;
+  padding: 0px 10px;
+  margin: 0px auto;
+  color: black; */
+}
+
+
+.gap{
+  text-align: center;
+  width: 400px;
+}
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.pages {
+ text-decoration: none;
+
+}
+
+.children {
+  display: flex;
+  gap: 30px;
+}
+
+
+.forms form input {
+  padding: 5px 10px;
+  font-family: inherit;
+  font-size: 18px;
+}
+
+.text {
+  text-align: center;
+}
+
+a.active {
+  text-decoration: underline;
+  font-size: medium;
+}
+
+button:hover {
+  background-color: navy;
+}
+.button
+
+.card {
+  align-items: center;
+  width: 1000px;
+  margin: 30px 0;
+  border-radius: 10px;
+  background-color: darkslateblue;
+  display: flex;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.btn{
+  color: aliceblue;
+  border: none;
+  padding: 10px  25px;
+  background-color: rgba(0, 0, 255, .3);
+  border-radius: 5px;
+}
+
+.name{
+  margin: 0 15px 0 0 ;
+}
