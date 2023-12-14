@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+b {
+    background: #ffffff;
+}
+
+@layer {
+    .site-container {
+        @apply max-w-7xl mx-auto p-10
+    }
+}
+
+.navbar {
+    box-shadow: 6px 6px 10px rgba(255 255, 255, 0.5),
+        -6px -6px 10px rgba(70, 70, 70, 0.12);
+}
+
+.text {
+    box-shadow: 6px 6px 10px rgba(255 255, 255, 0.5),
+        -6px -6px 10px #131052 rgba(70, 70, 70, 0.12);
+
+}
+
+.input, textarea {
+    box-shadow: 6px 6px 10px rgba(255 255, 255, 0.5),
+        -6px -6px 10px rgba(70, 70, 70, 0.12);
+
+}
